@@ -1,9 +1,9 @@
 *,
 *::before,
 *::after {
-    --azul-escuro: #154580;
-    --azul-medio: #3970BE;
-    --azul-claro: #E5F1FF;
+    --azul-escuro: #9747FF;
+    --azul-medio: #8239be;
+    --azul-claro: #f5e5ff;
     --cinza-texto: #444444;
     --cinza-claro: #ECECEC;
     box-sizing: border-box;
@@ -11,7 +11,7 @@
 
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    background-color: var(--azul-claro);
+    background-color: #f5e5ff;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -32,9 +32,9 @@ body {
 }
 
 .logo__item {
-    background-image: url(../img/cabecalho/Logo.png);
+    background-image: url(../img/cabecalho/tube3.png);
     background-repeat: no-repeat;
-    padding: 15px 65px;
+    padding: 20px 65px;
     cursor: pointer;
 }
 
@@ -49,11 +49,11 @@ body {
 }
 
 .pesquisar__label {
-    background-image: url(../img/cabecalho/search.png);
+    background-image: url(../img/cabecalho/search2.png);
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid rgb(211, 211, 211);
-    background-color: #F9F9F9;
+    background-color: #f9f9f9;
     border-left: none;
     padding: 8px 18px 5px;
     cursor: pointer;
@@ -61,34 +61,34 @@ body {
 }
 
 .cabecalho__audio {
-    background-image: url(../img/cabecalho/mic.png);
+    background-image: url(../img/cabecalho/mic2.png);
     padding: 20px;
     display: none;
 }
 
 .cabecalho__videos {
-    background-image: url(../img/cabecalho/video_call.png);
+    background-image: url(../img/cabecalho/video_call2.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
 }
 
 .cabecalho__apps {
-    background-image: url(../img/cabecalho/apps.png);
+    background-image: url(../img/cabecalho/apps2.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
 }
 
 .cabecalho__notificacoes {
-    background-image: url(../img/cabecalho/notifications.png);
+    background-image: url(../img/cabecalho/notifications2.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
 }
 
 .cabecalho__avatar {
-    background-image: url(../img/cabecalho/Avatar.png);
+    background-image: url(../img/cabecalho/Avatar2.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
@@ -143,7 +143,7 @@ body {
 }
 
 .icone__gaveta::before {
-    content: url(../img/menu/Avatar_Gaveta.png);
+    content: url(../img/menu/caze\ 1.png);
 }
 
 .icone__ballerini::before {
@@ -151,7 +151,7 @@ body {
 }
 
 .icone__iamarino::before {
-    content: url(../img/menu/Avatar_Atila.png);
+    content: url(../img/menu/defante.png);
 }
 
 .icone__souto::before {
@@ -163,7 +163,7 @@ body {
 }
 
 .icone__deschamps::before {
-    content: url(../img/menu/Avatar_Deschamps.png);
+    content: url(../img/menu/sky.png);
 }
 
 .icone__mostrar::before {
@@ -216,13 +216,6 @@ body {
 .videos__container {
     color: black;
     padding: 153px 20px 10px 20px;
-}
-
-.videos__item:hover {
-    transform: scale(1.3);
-    background-color: var(--azul-claro);
-    z-index: 2;
-    transition: .5s;
 }
 
 .descricao-video h3 {
@@ -286,10 +279,6 @@ body {
     .videos__container {
         padding-left: 90px;
         padding-right: 17px;
-    }
-
-    .videos__item:hover {
-        transform: scale(1.3);
     }
 
     /* ESTILOS RODAPÉ */
